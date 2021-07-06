@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+h1{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
+ul{
+    color: dimgray;
+}
+.name-highlight{
+    color:rgb(241, 166, 27);
+}
+.half-width{
+    width:40%;
+    float:left;
+    padding-left: 2%;
+    margin-left: 5%;
+}
+.half-width img{
+    width:100%;
+}
+.top-banner{
+    background-image: url("top-banner.png");
+}
+section{
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.Find-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg ,rgb(117, 227, 231),gray);
+    padding: 8px 20px;
+    border-radius:8%;
+    color: white;
+    font-weight: 700;
+}
+.About-Me{
+    text-decoration: none;
+    background-image: linear-gradient(45deg ,rgb(117, 227, 231),gray);
+    padding: 8px 20px;
+    border-radius:8%;
+    color: white;
+    font-weight: 700;
+}
+.full-width{
+    width:40%;
+    float:right;
+    padding-right: 2%;
+    margin-right: 5%;
+}
+.dream-area{
+    background-image: url("dream-bg.png");
+    background-position: right;
+}
+.lower{
+    width:40%;
+    float:right;
+    padding-left: 2%;
+    margin-left: 5%;
+}
+.single-box{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height:45%;
+    width: 30%;
+    padding-left: 10%;
+    text-align: start;
+}
+.exp-area{
+    background-image: url(exp-bg.png);
+}
+#side{
+    border-left: 7px solid;
+    border-image: linear-gradient(lightSalmon, cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    font-size: large;
+}
